@@ -92,17 +92,17 @@
 
 ### Install Git
 
-- Download Git to your workstation via <https://git-scm.com>
-- Install Git using the following recommended setttings:
-  - Use Visual Studio Code as Git’s default editor
-  - Set default branch to ‘main’
-  - Git from command line and also from 3rd-party software
-  - Use OpenSSL library
-  - Checkout Windows-style, commit Unix-style line endings
-  - Use MinTTY
-  - Default pull behavior (fast-forward or merge)
-  - Git Credential Manager Core
-  - Enable file system caching
+1. Download Git to your workstation via <https://git-scm.com>
+2. Install Git using the following recommended setttings:
+    - Use Visual Studio Code as Git’s default editor
+    - Set default branch to ‘main’
+    - Git from command line and also from 3rd-party software
+    - Use OpenSSL library
+    - Checkout Windows-style, commit Unix-style line endings
+    - Use MinTTY
+    - Default pull behavior (fast-forward or merge)
+    - Git Credential Manager Core
+    - Enable file system caching
 
 ### Establish Git Config
 
