@@ -4,9 +4,7 @@
 - Setup
 - Execution
 
-<br />
-
-# Concepts
+## Concepts
 
 - For simpliciy, while definithing these terms we'll take the perspective of you working off of your **local** workstation and uploading and downloading to a **remote** server.
 - If commands are provided, they are expected to be executed from your terminal within the desired **local directory**.
@@ -81,22 +79,18 @@
   
 ### Merge
 
-- Taking the code from one **branch** and pushing the changes to another branch; 
+- Taking the code from one **branch** and pushing the changes to another branch.
 - This is initiated via ‘pull request’
 
-<br />
+## Setup
 
-# Setup
-
-## Prerequisites
+### Prerequisites
 
 - Estabhlished account on a Source Control service (i.e. Gitlab/Github).
 - Vistual Studio Code preinstalled on your workstation.
 - If you're using a UNIX system, access to the terminal and basic understanding of commands.
 
-<br />
-
-## Install Git
+### Install Git
 
 - Download Git to your workstation via <https://git-scm.com>
 - Install Git using the following recommended setttings:
@@ -110,9 +104,7 @@
   - Git Credential Manager Core
   - Enable file system caching
 
-<br />
-
-## Establish Git Config
+### Establish Git Config
 
 1. On your workstation, open your 'user' directory:
     - `C:\Users\%USERPROFILE%` on Windows.
@@ -123,20 +115,16 @@
     - Please ensure to update the fields surrounded by open-angle brackets: `< >`
 4. Save and close.
 
-<br />
-
-## Estblishing Connection to Source Control
+### Estblishing Connection to Source Control
 
 In order to establish a connection between **source control** and your local workstation, you'll need to exchange secure, shared keys via SSH.
 
 - [GitHub Guide to SSH shared keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [GitLab Guide to SSH Shared keys](google.com)
 
-<br />
+## Execution
 
-# Execution
-
-## Establish a New, Local Directory
+### Establish a New, Local Directory
 
 1. Create a new folder on your workstation.
     - Recommendation: Name the folder something meaningful based on the scope of your code. Between words, use a dash `-` instead of a space.
@@ -150,9 +138,7 @@ In order to establish a connection between **source control** and your local wor
 7. `git init` to initialize your folder into a Git repository.
     - This will create a `.git/` folder within your repository. Use `ls -la` to confirm.
 
-<br />
-
-## Set Branch to 'Main'
+### Set Branch to 'Main'
 
 If Git was installed correctly your default branch should be `main`. If this is the case, you may skip this section. Otherwise, you may execute the following commands to covert from the `master` branch to `main`:
 
